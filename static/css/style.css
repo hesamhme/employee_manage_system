@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'BYekan';
+  src: url('../fonts/BYekan+.ttf');
+  color: #ffff;
+}
+@font-face {
+  font-family: 'BYekan';
+  src: url('../fonts/BYekan+ Bold.ttf');
+  font-weight: bold;
+  color: #ffff;
+}
+
+* {
+  font-family: 'BYekan', sans-serif;
+  line-height: 1.8rem;
+}
+
+/* SM breakpoint */
+@media (min-width: 576px) {
+  /* CUSTOM WIDTHS */
+  .w-sm-75 {
+    width: 75% !important;
+  }
+}
+
+.card {
+  position: relative;
+  background-color: #292929;
+  max-width: 100%;
+}
+
+.card-body {
+  padding-bottom: 50px; /* Add padding for the buttons */
+}
+
+.banner {
+  background-color: #ffa31a; /* Change the banner background color to #ffa31a */
+  color: #fff; /* Change the text color if needed */
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #1b1b1b; /* Change the background color of the whole page to #1b1b1b */
+}
+
+.navbar {
+  background-color: #ffa31a; /* Change the navbar background color to #ffa31a */
+}
+
+.navbar .navbar-brand {
+  color: #fff; /* Change the text color of the navbar brand if needed */
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff; /* Change the text color of the navbar links if needed */
+}
+.navbar-custom {
+  background-color: #ffa31a; /* Change the navbar background color to #ffa31a */
+}
+
+/* card */
+.content {
+  min-height: 90% !important;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.row .action-buttons {
+  all: unset;
+  position: relative !important;
+  padding: 0 8px 16px 8px;
+  width: 100%;
+}
+
+.text-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+.text-end form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.text-end form > input {
+  width: 100%;
+margin-left: 8px;
+}
+
+.card-body {
+  padding-bottom: 16px;
+}

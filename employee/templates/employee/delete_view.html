@@ -1,0 +1,17 @@
+{% extends '_base.html'%}
+{%load static%}
+{% block title %}
+حذف {{ emp.first_name }}
+{% endblock %}
+{% block content %}
+<form action="" method="post" class="card-header bg-grey text-light">
+    {% csrf_token %}
+    <div class="card-body">
+        <p class="card-text text-light">
+            bye bye ??{{ emp.first_name }}
+        </p>
+    </div>
+    <button type="submit" class="btn btn-danger">حذف</button>
+
+</form>
+{% endblock %}
